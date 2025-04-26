@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ark'sGrid</title>
+  <style>
+    .grid-container {
+      display: grid;
+      background-color: rgb(229, 231, 215);
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 100px 200px 200px;
+      gap: 5px;
+    }
+    h1{
+      display: flex;
+      font-style: italic;
+      font-size: 4rem;
+      color: chocolate;
+      justify-content: center;
+    }
+
+    .first-card {
+      display: flex;
+      grid-column: span 2;
+      border: 3px solid rgb(180, 123, 123);
+      background-color: blueviolet;
+      border-radius: 50%;
+      font-style: italic;
+      font-size: 2.5rem;
+      justify-content: center;
+      align-items: center;
+      color: aliceblue;
+      
+      
+    }
+
+    .secound-card {
+      display: flex;
+      background-color: rgb(79, 79, 225);
+      border:  solid rgb(228, 197, 197);
+      border-radius:20%;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    img{
+      border-radius: 40% 2%;
+      
+    }
+    .third-card{
+      display: flex;
+      background-color: rgb(141, 196, 86);
+      border:  solid black;
+      border-radius:20%;
+      justify-content: center;
+      align-items: center;
+    }
+   .fourth-card{
+    display: flex;
+      background-color: rgb(141, 196, 86);
+      border:  solid black;
+      border-radius:20%;
+      justify-content: center;
+      align-items: center;
+   } 
+   .fifth-card{
+    display: flex;
+    background-color: rgb(107, 200, 169);
+    border-radius:20%;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .fifth-card p {
+    color: rgb(31, 15, 201);
+    font-style: italic;
+    font-size: 1.2rem;
+   }
+   footer{
+    display: flex;
+  font-size: 1rem;
+  font-style: italic;
+  background-color: rgb(217, 227, 196);
+  justify-content:center;
+    
+   }
+   
+  </style>
+</head>
+
+<body>
+  <h1>Ark'sGrid</h1>
+  <div class="grid-container">
+    <div class="first-card">
+      <p>My First Grid Test </p>
+    </div>
+    <div class="secound-card">
+      <img src="./image/ARK-01.jpg" width="200px" height="150px">
+
+    </div>
+    <div class="third-card">
+      <img src="./image/asad.jpg" width="200px" height="150px">
+    </div>
+    <div class="fourth-card">
+      <img src="./image/cool-background.png" width="200px">
+    </div>
+    <div class="fifth-card">
+      <img src="./image/pexels-alohaphotostudio-31740977.jpg" width="150px" height="150px">
+   <p>My Test work in Grid </p>
+    </div>
+    
+  </div>
+  <footer>Ark's Design</footer>
+</body>
+
+</html>
